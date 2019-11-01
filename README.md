@@ -1,29 +1,24 @@
 # GitCommands
 List of helpful git commands
 
-git init  	
-
+git init   
 Initialize a repository at the current directory
 
 
-git clone  <remote URL>
-
+git clone  <remote URL>    
 Clone an existing remote repository into a newly created local repository. The local repository is 
 created in a new folder with the same name as the remote repository.
 
 
-git clone <–depth N> <remote URL> <directory>
-
+git clone <–depth N> <remote URL> <directory>    
 As above, but limit depth of cloned commits to N and put the cloned repository in specified directory.
 
 
-git status
-
+git status  
 Display lists of files that are untracked, tracked-but-not-staged, or staged-but-not-commited.
 
 
-git add . 
-
+git add .   
 Add all untracked files AND all tracked, changed or new but unstaged files, to the staging area.
 
 
