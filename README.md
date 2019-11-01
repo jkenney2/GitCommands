@@ -2,32 +2,28 @@
 List of helpful git commands
 
 git init   
-Initialize a repository at the current directory
-
-
-git clone  <remote URL>    
-Clone an existing remote repository into a newly created local repository. The local repository is 
+>Clone an existing remote repository into a newly created local repository. The local repository is 
 created in a new folder with the same name as the remote repository.
 
 
 git clone <–depth N> <remote URL> <directory>    
-As above, but limit depth of cloned commits to N and put the cloned repository in specified directory.
+>As above, but limit depth of cloned commits to N and put the cloned repository in specified directory.
 
 
 git status  
-Display lists of files that are untracked, tracked-but-not-staged, or staged-but-not-commited.
+>Display lists of files that are untracked, tracked-but-not-staged, or staged-but-not-commited.
 
 
 git add .   
-Add all untracked files AND all tracked, changed or new but unstaged files, to the staging area.
+>Add all untracked files AND all tracked, changed or new but unstaged files, to the staging area.
 
 
 git commit -m “Commit message goes here”   
-Commit all staged files on the current branch.
+>Commit all staged files on the current branch.
 
 
 git commit -am “Commit message goes here”   
-Same as doing “git add a . “ followed by “git commit -m.”
+>Same as doing “git add a . “ followed by “git commit -m.”
 
 
 git branch -v   
