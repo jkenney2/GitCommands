@@ -22,43 +22,35 @@ git add .
 Add all untracked files AND all tracked, changed or new but unstaged files, to the staging area.
 
 
-git commit -m “Commit message goes here”
-
+git commit -m “Commit message goes here”   
 Commit all staged files on the current branch.
 
 
-git commit -am “Commit message goes here”
-
+git commit -am “Commit message goes here”   
 Same as doing “git add a . “ followed by “git commit -m.”
 
 
-git branch -v
-
+git branch -v   
 List branches.
 
 
-git branch -a
-
+git branch -a   
 List branches, including remote branches.
 
 
-git branch -d <local branch name>
-
+git branch -d <local branch name>   
 Delete local branch.
 
 
-git branch <new branch name>
-
+git branch <new branch name>   
 Create a new branch in the local repository.
 
 
-git checkout <branch name>
-
+git checkout <branch name>   
 Make the indicated branch the current branch.
 
 
-git checkout -b <new branch name>
-
+git checkout -b <new branch name>   
 Create and checkout a new branch.
 
 
