@@ -2,6 +2,9 @@
 List of helpful git commands
 
 git init   
+>Initialize a new local git repository at the current directory.
+
+git clone \<remote URL\>  
 >Clone an existing remote repository into a newly created local repository. The local repository is 
 created in a new folder with the same name as the remote repository.
 
