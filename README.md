@@ -6,7 +6,7 @@ git init
 created in a new folder with the same name as the remote repository.
 
 
-git clone <–depth N> <remote URL> <directory>    
+git clone \<–depth N\> \<remote URL\> \<directory\>    
 >As above, but limit depth of cloned commits to N and put the cloned repository in specified directory.
 
 
