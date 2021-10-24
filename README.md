@@ -123,4 +123,13 @@ touch \<newFileName\>
 git rm –cached \<filename\>   
 >Remove a file from the index (i.e., stop tracking it), but do not remove it from the working directory.
 
+git diff  
+>Display diff between changed (but tracked) files and current index (i.e., files staged for commit)
+
+git diff --cached  
+>Display diff between current index (i.e., files staged for commit) and most recent commit on current branch.
+
+git diff \<branch name\>
+>Display diff between changed (tracked, staged OR unstaged) files and most recent commit on named branch.
+
 
