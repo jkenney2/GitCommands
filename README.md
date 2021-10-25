@@ -132,4 +132,20 @@ git diff --cached
 git diff \<branch name\>
 >Display diff between changed (tracked, staged OR unstaged) files and most recent commit on named branch.
 
+git stash push  
+>Roll back changes on working tree and push them to a stack of stashes. This affects strictly the LOCAL system.
+>Can add -m "\<message\>" to this command to include a message
+
+git stash pop  
+>Pop the most recent stash back on to the working tree, removing from the stash stack. Note: a conflict is possible 
+>between the popped stash and changes that have already been made to the working tree. In this situation, the 
+>conflict must be resolved, and the popped stash is not removed from the stash stack. It must then be removed 
+>from the stash stack manually using "git stash drop"
+
+git stash list  
+>List the stash stack (most recently pushed stash first)
+
+git stash drop \<number\>  
+>Drop the numbered stash from the stash stack
+
 
